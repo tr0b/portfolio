@@ -1,0 +1,9 @@
+services:
+    hugo: 
+        image: klakegg/hugo:ext-alpine
+        container_name: hugo
+        command: server -t hugo-theme-shell -w -D
+        volumes: 
+          - ".:/src" 
+        ports: 
+          - "1313:1313"
