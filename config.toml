@@ -1,0 +1,110 @@
+baseURL = 'http://example.org/'
+languageCode = 'en-us'
+title = "Thomas Robinson"
+
+[Params]
+  # Note: This is for the meta description, which is different from the "description" displayed in the terminal.
+  description = "Thomas Robinson's Portfolio"
+  [Params.Terminal]
+  # Note: color scheme
+  # Note: You can choose between
+  # Note: hugo-theme-shell original: ["shell-powershell", "shell-ubuntu", "shell-retro"]
+  # Note: or
+  # Note: gogh theme: https://mayccoll.github.io/Gogh/
+  scheme = "Molokai"
+
+  # Note: in terminal
+  # [userName]@[pcName]:~/$ cd [workDir]
+  # [userName]@[pcName]:~/[workDir]$ cat [profile]
+  #
+  # [description]
+  #
+  # Note: if you set Params.Tree > use = true
+  # [userName]@[pcName]:~/[workDir]$ tree ./[folderName]/
+  # ./[folderName]/
+  # ...
+  # Note: result of the tree command
+  userName = "thomas"
+  pcName = "home"
+  workDir = "portfolio"
+  profile = "my_profile.txt"
+
+  # Note: speed at which text is displayed on the terminal
+  # Note: if set to 0, typing animation will be disabled
+  # Note:
+  # Note: if you want to enable Mathjax, you need to set it to 0
+  # Note: and set "math: true" at front matter in your Markdown file
+  ps1Delay = 0 # prompt speed : [userName]@[pcName]:~/$ , [userName]@[pcName]:~/[workDir]$
+  stdoutDelay = 0 # stdout speed : [description] , files in Params.Tree
+  commandDelay = 20 # command speed : cd [workDir] , cat [profile] , tree ./[folderName]/
+
+  # terminalDelay = 20 : deprecated
+
+  # Note: speed at which text is displayed on the activity pages
+  # Note: if set to 0, typing animation will be disabled
+  # Note: 
+  # Note: if you want to enable Mathjax, you need to set it to 0
+  # Note: and set "math: true" at front matter in your Markdown file
+  titleDelay = 0 # title speed : "title" in front matter
+  contentDelay = 0 # content speed : content in .md file
+
+  # activityDelay = 5 : deprecated
+
+  introduction = """
+<pre>
+/*       _\\|/_
+         (o o)
+ +----oOO-{_}-OOo-----------+
+ |     Hi, I'm Thomas!      |
+ |I am a Software Engineer! |
+ +-------------------------*/
+</pre>
+  """
+  # Note: If you want to use a Markdown file, you can use the following
+  # description = "/description.md"
+  # Note: and put the description.md in /content/description.md
+
+  [Params.experienceTree]
+  use = true
+  folderName = "experience"
+  # Note: ["ACTIVITY", "URL or PATH TO YOUR MARKDOWN FILE"]
+  files = [ 
+    ["Prime Provisions (09/2022 - Current)", "https://primeprovisions.cr"],
+    ["SchoolMint (12/2019 - Current)", "https://cps.schoolmint.com"],
+    ["CHECK (03/2017 - 12/2019)", ""],
+  ]
+
+  [Params.skillTree]
+  use = true
+  folderName = "skills"
+  # Note: ["ACTIVITY", "URL or PATH TO YOUR MARKDOWN FILE"]
+  files = [ 
+    ["Full-Stack | Back-end | Front-end | DevOps | Tech Lead", ""],
+    ["AWS | Microservices | Test-Driven Development | Scripting", ""],
+    ["Docker | Deployments | Kubernetes | Microservices", ""],
+    ["SQL | NoSQL", ""],
+  ]
+
+  [Params.projectTree]
+  use = true
+  folderName = "projects"
+  # Note: ["ACTIVITY", "URL or PATH TO YOUR MARKDOWN FILE"]
+  files = [ 
+    ["This portfolio page: Written with the Hugo framework, and Markdown", "https://github.com/tr0b/portfolio"],
+    ["SIMPLEBANK: Concurrent Bank Simulator, written in Go with Gin, deployed to AWS", "https://github.com/tr0b/simplebank"],
+    ["RESTAPP: Restaurant Franchise ordering software, written with Next.js and Node.js", "https://github.com/tr0b/restapp"],
+    ["DUALBUNDLE: Two videogames designed and developed with Java and LibGDX", "https://github.com/tr0b/DualBundle"],
+  ]
+
+  [Params.contactTree]
+  use = true
+  folderName = "contact"
+  # Note: ["ACTIVITY", "URL or PATH TO YOUR MARKDOWN FILE"]
+  files = [ 
+    ["My resume (CLICK HERE TO DOWNLOAD IT)", "https://google.com"],
+    ["Github", "https://github.com/tr0b"],
+    ["Linkedin", "https://www.linkedin.com/in/thomas-robinson-386557193/"],
+    ["Resume", "https://google.com"],
+    ["Personal blog (Coming soon!)", ""],
+  ]
+
