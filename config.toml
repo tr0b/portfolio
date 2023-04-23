@@ -90,10 +90,10 @@ title = "Thomas Robinson"
   folderName = "projects"
   # Note: ["ACTIVITY", "URL or PATH TO YOUR MARKDOWN FILE"]
   files = [ 
-    ["This portfolio page: Written with the Hugo framework, and Markdown", "https://github.com/tr0b/portfolio"],
+    ["This portfolio page: Written with the Hugo framework, Javascript, and Markdown", "https://github.com/tr0b/portfolio"],
     ["SIMPLEBANK: Concurrent Bank Simulator, written in Go with Gin, deployed to AWS", "https://github.com/tr0b/simplebank"],
-    ["RESTAPP: Restaurant Franchise ordering software, written with Next.js and Node.js", "https://github.com/tr0b/restapp"],
-    ["DUALBUNDLE: Two videogames designed and developed with Java and LibGDX", "https://github.com/tr0b/DualBundle"],
+    ["RESTAPP: Restaurant Franchise ordering software, written with Next.js", "https://github.com/tr0b/restapp"],
+    ["DUALBUNDLE: Two videogames developed with Java and LibGDX", "https://github.com/tr0b/DualBundle"],
   ]
 
   [Params.contactTree]
@@ -104,7 +104,6 @@ title = "Thomas Robinson"
     ["My resume (CLICK HERE TO DOWNLOAD IT)", "https://google.com"],
     ["Github", "https://github.com/tr0b"],
     ["Linkedin", "https://www.linkedin.com/in/thomas-robinson-386557193/"],
-    ["Resume", "https://google.com"],
     ["Personal blog (Coming soon!)", ""],
   ]
 
