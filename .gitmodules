@@ -1,3 +1,6 @@
 [submodule "themes/hugo-theme-shell"]
 	path = themes/hugo-theme-shell
 	url = git@github.com:tr0b/hugo-theme-shell.git
+[submodule "resume"]
+	path = resume
+	url = git@github.com:tr0b/resume.git
