@@ -8,8 +8,8 @@ body {
   height: 100%;
   overflow: auto;
   font-family: "Inconsolata", monospace;
-  font-size: 1vmin;
-  line-height: 1.1vmin;
+  font-size: 4vmin;
+  line-height: 4.1vmin;
   font-weight: normal; }
 
 body {
