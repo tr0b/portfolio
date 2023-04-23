@@ -11,7 +11,7 @@ title = "Thomas Robinson"
   # Note: hugo-theme-shell original: ["shell-powershell", "shell-ubuntu", "shell-retro"]
   # Note: or
   # Note: gogh theme: https://mayccoll.github.io/Gogh/
-  scheme = "Molokai"
+  scheme = "Palenight"
 
   # Note: in terminal
   # [userName]@[pcName]:~/$ cd [workDir]
@@ -54,10 +54,10 @@ title = "Thomas Robinson"
 <pre>
 /*       _\\|/_
          (o o)
- +----oOO-{_}-OOo-----------+
- |     Hi, I'm Thomas!      |
- |I am a Software Engineer! |
- +-------------------------*/
+ +----oOO-{_}-OOo----------+
+ |     Hi, I'm Thomas!     |
+ |I'm a Software Engineer! |
+ +------------------------*/
 </pre>
   """
   # Note: If you want to use a Markdown file, you can use the following
@@ -78,22 +78,23 @@ title = "Thomas Robinson"
   use = true
   folderName = "skills"
   # Note: ["ACTIVITY", "URL or PATH TO YOUR MARKDOWN FILE"]
-  files = [ 
-    ["Full-Stack | Back-end | Front-end | DevOps | Tech Lead", ""],
-    ["AWS | Microservices | Test-Driven Development | Scripting", ""],
-    ["Docker | Deployments | Kubernetes | Microservices", ""],
+  files = [
+    ["Full-Stack | Back-end | Front-end | DevOps", ""],
+    ["AWS | Microservices | Test-Driven Development", ""],
+    ["Docker | Kubernetes | Microservices", ""],
     ["SQL | NoSQL", ""],
-  ]
+]
 
   [Params.projectTree]
   use = true
   folderName = "projects"
   # Note: ["ACTIVITY", "URL or PATH TO YOUR MARKDOWN FILE"]
   files = [ 
-    ["This portfolio page: Written with the Hugo framework, Javascript, and Markdown", "https://github.com/tr0b/portfolio"],
-    ["SIMPLEBANK: Concurrent Bank Simulator, written in Go with Gin, deployed to AWS", "https://github.com/tr0b/simplebank"],
-    ["RESTAPP: Restaurant Franchise ordering software, written with Next.js", "https://github.com/tr0b/restapp"],
-    ["DUALBUNDLE: Two videogames developed with Java and LibGDX", "https://github.com/tr0b/DualBundle"],
+    ["Prime Provisions (VIEW)", "https://primeprovisions.cr"],
+    ["SIMPLEBANK (SOURCE)", "https://github.com/tr0b/simplebank"],
+    ["RESTAPP (SOURCE)", "https://github.com/tr0b/restapp"],
+    ["DUALBUNDLE (SOURCE)", "https://github.com/tr0b/DualBundle"],
+    ["This page :) (SOURCE)", "https://github.com/tr0b/portfolio"],
   ]
 
   [Params.contactTree]
@@ -101,9 +102,10 @@ title = "Thomas Robinson"
   folderName = "contact"
   # Note: ["ACTIVITY", "URL or PATH TO YOUR MARKDOWN FILE"]
   files = [ 
-    ["My resume (CLICK HERE TO DOWNLOAD IT)", "https://google.com"],
-    ["Github", "https://github.com/tr0b"],
-    ["Linkedin", "https://www.linkedin.com/in/thomas-robinson-386557193/"],
-    ["Personal blog (Coming soon!)", ""],
+    ["Resume (VIEW)", "https://tr0b.github.io/resume/"],
+    ["Github (VIEW)", "https://github.com/tr0b"],
+    ["Linkedin (VIEW)", "https://www.linkedin.com/in/thomas-robinson-386557193/"],
+    ["Email (VIEW)", "mailto:trobin0000@gmail.com"],
+    ["Personal Blog (COMING SOON!)", ""],
   ]
 
