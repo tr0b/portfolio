@@ -2,7 +2,7 @@ services:
     hugo: 
         image: klakegg/hugo:ext-alpine
         container_name: hugo
-        command: server -t hugo-theme-shell -w -D
+        command: server -w -D
         volumes: 
           - ".:/src" 
         ports: 
