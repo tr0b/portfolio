@@ -70,9 +70,10 @@ theme = "hugo-theme-shell"
   folderName = "experience"
   # Note: ["ACTIVITY", "URL or PATH TO YOUR MARKDOWN FILE"]
   files = [ 
-    ["Prime Provisions (09/2022 - Current)", "https://primeprovisions.cr"],
-    ["SchoolMint (12/2019 - Current)", "https://cps.schoolmint.com"],
-    ["CHECK (03/2017 - 12/2019)", ""],
+    ["ActiveCampaign (06/2023 - Current)", "https://activecampaign.com"],
+    ["SchoolMint (12/2019 - 06/2023)", "https://cps.schoolmint.com"],
+    ["Prime Provisions (09/2022 - 11/2022)", "https://primeprovisions.cr"],
+    ["CHECK (03/2017 - 12/2019)", "https://facebook.com/libreriacheck/"],
   ]
 
   [Params.skillTree]
