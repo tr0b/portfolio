@@ -55,10 +55,10 @@ theme = "hugo-theme-shell"
 <pre>
 /*       _\\|/_
          (o o)
- +----oOO-{_}-OOo----------+
- |     Hi, I'm Thomas!     |
- |I'm a Software Engineer! |
- +------------------------*/
+ +----oOO-{_}-OOo-----------------+
+ |        Hi, I'm Thomas!         |
+ |I'm a Senior Software Engineer! |
+ +-------------------------------*/
 </pre>
   """
   # Note: If you want to use a Markdown file, you can use the following
