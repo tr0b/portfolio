@@ -83,8 +83,8 @@ theme = "hugo-theme-shell"
   files = [
     ["Full-Stack | Back-end | Front-end | DevOps", ""],
     ["AWS | Microservices | Test-Driven Development", ""],
-    ["Docker | Kubernetes | Microservices", ""],
-    ["SQL | NoSQL", ""],
+    ["Docker | Kubernetes | Microservices | Terraform", ""],
+    ["SQL | NoSQL | Lisp | Scheme | Clojure", ""],
 ]
 
   [Params.projectTree]
@@ -108,6 +108,6 @@ theme = "hugo-theme-shell"
     ["Github (VIEW)", "https://github.com/tr0b"],
     ["Linkedin (VIEW)", "https://www.linkedin.com/in/thomas-robinson-386557193/"],
     ["Email (VIEW)", "mailto:trobin0000@gmail.com"],
-    ["Personal Blog (COMING SOON!)", ""],
+    ["Personal Blog (VIEW)", "https://nothomas.com"],
   ]
 
